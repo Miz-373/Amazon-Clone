@@ -1,0 +1,32 @@
+.back-to-top {
+  padding: 15px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #37475a;
+  width: 100%;
+}
+.back-to-top:hover {
+  background-color: #445972;
+}
+.arrow {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .back-to-top {
+    width: 55px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    background: #343a40;
+  }
+  .big-button {
+    display: none;
+  }
+  .arrow {
+    display: block;
+  }
+}

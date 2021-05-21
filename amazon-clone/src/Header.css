@@ -1,0 +1,159 @@
+.row {
+  margin: 0 !important;
+  background-color: #343a40;
+  height: 77px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: #343a40;
+  align-items: center;
+}
+
+.bg-dark {
+  background-color: #131921 !important;
+}
+
+.form-inline {
+  margin: 10px 20px;
+  background-color: #343a40;
+  flex-flow: row imp !important;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.header__search {
+  display: flex;
+  flex: 30%;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+a {
+  color: #111 !important;
+  text-decoration: none !important;
+}
+#basic-nav-dropdown {
+  color: white !important;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 38px !important;
+  background-color: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  border-radius: 0 4px 4px 0;
+  margin-left: -10px;
+  width: 45px !important;
+  transition: all 0.5s ease 0s;
+}
+
+.header__searchIcon:hover {
+  opacity: 0.75;
+  background: #fcba12;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 60px;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: fit-content;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .col-md-12 {
+    padding: 0 !important;
+  }
+  .navbar {
+    /* flex-wrap: row !important;*/
+  }
+  .navbar-collapse {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+  }
+
+  .header__logo {
+    margin-left: -4px;
+    margin-bottom: 0px;
+  }
+
+  .form-control {
+    width: 100% !important;
+  }
+
+  hr {
+    border-top: 1px solid rgb(255 255 255) !important;
+  }
+
+  #basic-navbar-nav {
+    background-color: #343a40;
+  }
+
+  .header__option {
+    align-items: center;
+    margin: 10px;
+  }
+  .form-inline {
+    margin: 10px 10px;
+    flex-flow: row !important;
+  }
+
+  .mr-sm-2,
+  .mx-sm-2 {
+    margin-right: 0 !important;
+  }
+  .header__optionBasket {
+    border: 1px solid;
+    padding: 10px 75px;
+    margin: 15px 50px;
+  }
+}
